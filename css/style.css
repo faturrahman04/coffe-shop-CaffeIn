@@ -470,6 +470,19 @@ footer h6 {
   transition: 0.4s;
 }
 }
+
+@media (max-width: 480px) {
+  .hero {
+  background-image: url(../img/hero.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: -10rem;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  position: relative;
+  }
+}
 /* Mobile Phone */
 
 /* Media Queries */
