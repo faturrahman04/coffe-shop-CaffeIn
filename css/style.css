@@ -25,6 +25,17 @@ html {
   scroll-behavior: smooth;
 }
 
+section > * {
+  filter: opacity(0);
+  animation: fade 3s 1 forwards;
+}
+
+@keyframes fade {
+  to {
+    filter: opacity(1);
+  }
+}
+
 body {
   background-color: #010101;
   font-family: "Poppins", sans-serif;
