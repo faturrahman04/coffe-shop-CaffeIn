@@ -61,6 +61,8 @@ body {
   left: 0;
   right: 0;
   z-index: 9999;
+  backdrop-filter: blur(0.5rem);
+  -webkit-backdrop-filter: blur(0.5rem);
 }
 
 .navbar h1 {
@@ -430,7 +432,7 @@ footer h6 {
   background-image: url(../img/hero.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: -30rem;
+  background-position: -40rem;
   min-height: 100vh;
   display: flex;
   align-items: center;
