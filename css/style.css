@@ -476,12 +476,17 @@ footer h6 {
   background-image: url(../img/hero.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: -10rem;
+  background-position: -20rem;
   min-height: 100vh;
   display: flex;
   align-items: center;
   position: relative;
   }
+
+  .about,
+ .product, .contact{
+  padding: 4rem 1%;
+}
 }
 /* Mobile Phone */
 
